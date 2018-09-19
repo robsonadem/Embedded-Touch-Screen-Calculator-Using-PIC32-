@@ -1,6 +1,6 @@
 /* 
  * File:   Calculator.h
- * Author: zhuti
+ * Author: Robson and Tianyu
  *
  * Created on September 13, 2018, 9:31 AM
  */

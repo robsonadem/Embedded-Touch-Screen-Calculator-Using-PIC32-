@@ -1,3 +1,10 @@
+/* 
+ * File:   Calculator.h
+ * Author: Robson and Tianyu
+ *
+ * This is the header file for the calculator module. 
+ */
+
 #include "Calculator.h"
 #include <stdio.h>
 #include <string.h>
@@ -238,18 +245,7 @@ void run() {
                     break;
                 }
                 
-//                if (operationState == 1) {
-//                    result = last_value + display_value;
-//                }
-//                if (operationState == 2) {
-//                    result = last_value - display_value;
-//                }
-//                if (operationState == 3) {
-//                    result = last_value * display_value;
-//                }
-//                if (operationState == 4) {
-//                    result = last_value / display_value;
-//                }
+
                 last_value=result;
                 display_value =0;
                 numPress=0;
@@ -306,41 +302,6 @@ void run() {
     
     
 }
-
-//int MUL() {
-//
-//    if (last_value > 0) { /* si_a is positive */
-//        if (last_value > 0) { /* si_a and si_b are positive */
-//            if (last_value > (INT_MAX / display_value)) {
-//                overflow = 1;
-//                return 1;
-//            }
-//        } else { /* si_a positive, si_b nonpositive */
-//            if (display_value < (INT_MIN / last_value)) {
-//                overflow = 1;
-//                return 1;
-//            }
-//        } /* si_a positive, si_b nonpositive */
-//    } else { /* si_a is nonpositive */
-//        if (display_value > 0) { /* si_a is nonpositive, si_b is positive */
-//            if (last_value < (INT_MIN / display_value)) {
-//                overflow = 1;
-//                return 1;
-//            }
-//        } else { /* si_a and si_b are nonpositive */
-//            if ((last_value != 0) && (display_value < (INT_MAX / last_value))) {
-//                overflow = 1;
-//                return 1;
-//            }
-//        } /* End if si_a and si_b are nonpositive */
-//    } /* End if si_a is nonpositive */
-//
-//
-//}
-
-
-
-
 
 
 
